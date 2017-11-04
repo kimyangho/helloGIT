@@ -2,8 +2,8 @@
 
 int main(int argc, char* argc[]) {
 
-	int foo;
+	int foo, poo, boo;
 	printf("Hello World !");
-	scanf("%d", &foo);
-	return 0;
+	scanf("%d %d %d", &foo, &poo, &boo);
+	return foo + poo + boo;
 }
