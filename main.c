@@ -2,7 +2,8 @@
 
 int main(int argc, char* argc[]) {
 
+	int foo;
 	printf("Hello World !");
-	printf("new world !");
+	scanf("%d", &foo);
 	return 0;
 }
