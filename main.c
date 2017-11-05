@@ -4,6 +4,6 @@ int main(int argc, char* argc[]) {
 
 	int foo, poo, boo;
 	printf("Hello World !");
-	scanf("%d %d %d", &foo, &poo, &boo);
-	return foo + poo + boo;
+	printf("GIT 사용 2일차입니다 !!")
+		return 0;
 }
